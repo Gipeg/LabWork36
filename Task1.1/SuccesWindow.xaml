@@ -1,0 +1,15 @@
+﻿<Window x:Class="Task1.SuccesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1"
+        mc:Ignorable="d"
+        Title="SuccesWindow" Height="250" Width="400">
+    <StackPanel>
+        <Label Content="Вы хотите закрыть окно"/>
+        <Button Content ="Да" x:Name="yesButton" Click="yesButton_Click" IsDefault="True"/>
+        <Button Content="Нет" x:Name="noButton" Click="noButton_Click" IsCancel="True"/>
+        <Image Source="C:\temp\ispp21\LabWork36\Task1\s2.jpg" Height="100"/>
+    </StackPanel>
+</Window>
